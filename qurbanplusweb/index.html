@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qurbanplus</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        // Redirect to welcome page if first visit
+        if (!localStorage.getItem('hasVisited')) {
+            window.location.href = 'pages/welcome.html';
+        }
+    </script>
+</head>
+<body>
+    <!-- Main app content -->
+    <script src="js/main.js"></script>
+</body>
+</html>

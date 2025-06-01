@@ -1,0 +1,17 @@
+{
+    "name": "qurbanplus",
+    "version": "1.0.0",
+    "description": "Qurbanplus Crew Application",
+    "main": "index.html",
+    "scripts": {
+      "start": "http-server -p 8080",
+      "dev": "http-server -p 8080 -c-1",
+      "build": "echo 'No build process required for static site'"
+    },
+    "keywords": ["qurban", "islamic", "application"],
+    "author": "Qurbanplus Team",
+    "license": "MIT",
+    "devDependencies": {
+      "http-server": "^14.1.1"
+    }
+  }
